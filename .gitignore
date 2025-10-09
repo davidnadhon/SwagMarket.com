@@ -1,0 +1,21 @@
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+
+# --- Fichiers Python temporaires ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Base de données SQLite (facultatif) ---
+*.sqlite3
+
+# --- Fichiers d'environnement secrets ---
+.env
+
+# --- Dossiers temporaires Django ---
+staticfiles/
+media/
+
